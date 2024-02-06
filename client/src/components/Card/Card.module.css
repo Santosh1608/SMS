@@ -1,0 +1,164 @@
+.Card {
+    width: min(100vw - 1rem, 22.5rem);
+    background: white;
+    border: 0.25rem solid rgb(236,242,254);
+    border-radius: 1.25rem;
+    position: relative;
+    border-radius: 1rem;
+    grid-template-columns: auto;
+}
+
+.Card .BackLogo{
+    width: 100%;
+    height: 80%;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.Card .Header {
+    max-width: 400px;
+    position: relative;
+    height: 130px;
+}
+
+.Card .Logo{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.Card .Footer {
+    padding: 0.85rem 1rem;
+}
+
+.Card .Footer h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Card .Box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.Card .Box div{
+    border: 0.0625rem solid rgb(238, 240, 241);
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    width: 49%;
+}
+
+.Card .Box h3 {
+    color: rgb(35, 39, 42);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 0.625rem;
+}
+
+.Card .Box div p{
+    color: rgb(59, 59, 60);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.015rem;
+}
+
+.Card .Footer > p{
+    color: #101010;
+    font-size: 1rem;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin: 1rem 0px;
+}
+
+.Card .Footer h4{
+    color: rgb(12, 93, 233);
+    padding: 1rem 0rem;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.Card .Line{
+    border-radius: 0.75rem;
+    border-left: 3px solid rgb(80, 141, 246);
+}
+
+.Card .Merit{
+    display: flex;
+    height: 1.8rem;
+}
+
+.Card .Merit .Right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+   justify-content: flex-start;
+   padding-left: 5px;
+}
+
+.Card .Merit p{
+    margin: 0px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 120%;
+}
+
+.Card .Highlight{
+    background: rgb(236, 242, 254);
+    padding: 0.5rem;
+    margin-top: 0.75rem;
+    border-radius: 0.5rem;
+    cursor: initial;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.Card .Highlight p{
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.015rem;
+}
+
+.Card button{
+    border-radius: 0.625rem;
+    padding: 0.625rem;
+    background: rgb(32, 110, 244);
+    cursor: pointer;
+    transition: all 300ms ease 0s;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.Card button:hover{
+    background: rgb(100,154,247);
+}
+
+.Card .Final span{
+    color:rgb(32, 110, 244);
+    letter-spacing: 0.015rem;
+    font-weight: 800;
+    margin-left: 3px;
+
+}
+
+.Card .Final {
+    color: rgb(59, 59, 60);
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 140%;
+    letter-spacing: 0.015rem;
+}

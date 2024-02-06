@@ -1,0 +1,25 @@
+.Header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Header input{
+    flex: 1;
+    margin: 1rem 0.3rem;
+    border: 0.125rem solid rgb(238, 240, 241);
+    border-radius: 0.75rem;
+    height: 3rem;
+    padding: 0.25rem 0.25rem 0.25rem 1.5rem;
+}
+
+
+@media screen and (max-width: 600px){
+    .Header{
+        flex-direction: column;
+    }
+    .Header input{
+        margin: 0.3rem;
+        padding: 0.7rem;
+    }
+}
