@@ -1,5 +1,6 @@
-## Working video
-https://www.loom.com/share/44267a8d7f3f445dad3ae2532480b629?sid=79548baa-ee60-4c3e-92bf-8e98e9d90111
+## Screenshots
+![image](https://github.com/Santosh1608/SMS/assets/50845652/f3d9a3f9-0e08-444f-adb1-1f7488b98d30)
+
 
 ### Tech Used
 
@@ -69,7 +70,7 @@ https://www.loom.com/share/44267a8d7f3f445dad3ae2532480b629?sid=79548baa-ee60-4c
 
 ### Requirements to run the application
 
-- NodeJS 20v
+- NodeJS <code>v20</code>
 - Docker 🐳 (If you want to run it in docker)
 ---
 
